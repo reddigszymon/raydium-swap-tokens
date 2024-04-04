@@ -1,5 +1,5 @@
 export const swapConfig = {
-  executeSwap: true, // Send tx when true, simulate tx when false
+  executeSwap: false, // Send tx when true, simulate tx when false
   useVersionedTransaction: false,
   tokenAAmount: 0.01, // Swap 0.01 SOL for USDT in this example
   tokenAAddress: "So11111111111111111111111111111111111111112", // Token to swap for the other, SOL in this case
