@@ -32,7 +32,7 @@ ws.on("message", function incoming(data) {
   console.log("Received a message:", msg);
 
   // Check if the message is a notification of a program event
-  if (msg && msg.method === "notification") {
+  if (msg && msg.method === "programNotification") {
     const { result } = msg.params;
     console.log("Notification of a program event:", result);
 
